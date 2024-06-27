@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Berenice Andriano Motalvo">
+    <meta name="description" content="pagina pricipal">
+    <title>PAGINA PRINCIPAL</title>
+    <link rel="stylesheet" href="prueba.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="./js/perfumes.js"></script>
+	<script src="./js/cartService.js" defer></script>
+	<script src="./js/cuenta.js" defer></script>
+</head>
+<body>
+
+    <!--barra de menu-->
+    <header>
+<main>
+        <div class="navbar">
+        
+            <img src="imagenes/menu2.png" alt="Menú" class="menu-icon" onclick="toggleMenu()">
+            <img src="imagenes/logo.png" alt="logo" class="logo">
+            <div id="inicio" class="target-section"></div>
+
+            <div class="icons">
+                <a href="carrito.html">
+                    <img src="imagenes/bolsita.jpg" alt="img" class="carritoimg"><span id="cuenta-carrito">0</span>
+                    </a>
+            </div>
+        </div>
+        
+        <nav id="menu" class="menu">
+            <img src="imagenes/x.png" alt="Cerrar" class="close-icon" onclick="toggleMenu()">
+            <p class="p">MENU</p>
+            
+            <ul>
+                <li><a href="index.html">Inicio   ></a></li>
+                <li><a href="ofertas.html">Ofertas  ></a></li>
+                <li><a href="Exclusivoss.html">Premium  ></a></li>
+                <li>-----------------</li>
+                <li>-----------------</li>
+                <li>-----------------</li>
+                <li>-----------------</li>
+                <li><a href="Ayuda.html">Ayuda    ></li></a>
+                <li><a href="comentarios.html">Comentarios  ></li></a>
+                <li><a href="contactos.html">Contactos    ></li></a>
+            </ul>
+        </nav>
+
+    </header>
+
+    <br><br><br>
+    <main class="main">
+        <br><br><br>
+        <video controls>
+            <source src="imagenes/videoingles.mp4" type="video/mp4">
+        </video>
+    </main>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('show');
+        }
+    </script>
+    <!--se cierra barra de menu-->
+    <br><br>
+    <p class="p1">Familias olfativas</p>
+    <br><br>
+    
+    <button onclick="location.href='#seccion-destino1'" class="botonolf">Amaderadas</button>
+    <button onclick="location.href='#seccion-destino2'" class="botonolf">Florales</button>
+    <button onclick="location.href='#seccion-destino3'" class="botonolf">Frescas</button>
+    <button onclick="location.href='#seccion-destino4'" class="botonolf">Orientales</button>
+    
+        <br><br>
+        <div id="seccion-destino1" class="target-section">
+            <p class="text-azul">Amaderados</p>
+        </div>
+        <div class="alinear">
+    <a href="perf.1.html"><img src="imagenes/perf.1.png" class="tamaño" ></a>
+    <a href="perf.2.html"><img src="imagenes/perf.2.png" class="tamaño2" ></a>
+    <a href="perf.3.html"><img src="imagenes/perf.3.png" class="tamaño3" ></a>
+</div>
+<p>Diable <br>
+    100ml
+    <br>
+    <b><s>$1,000</s></b>
+
+    <p class="text2">Fragancia Invictus-men <br>
+        100ml
+        <br>
+        <b><s>$1,710</s></b>
+
+        <p class="text3">Fragancia Maderal                 <br>
+            100ml
+            <br>
+            <b><s>$1,710</s></b>
+<br><br>
+<br>
+        <div id="seccion-destino2" class="target-section">
+            <p class="text-azul">Florales</p>
+        </div>
+
+    <br><br>
+    <div class="alinear">
+    <a href="perf.4.html"><img src="imagenes/perf.4.png" class="tamaño"></a>
+    <a href="perf.5.html"><img src="imagenes/perf.5.png" class="tamaño2"></a>
+    <a href="perf.6.html"><img src="imagenes/perf.6.png" class="tamaño3"></a>
+</div>
+<p>Fragancia EleganT <br>
+    100ml
+    <br>
+    <b><s>$2,090</s></b>
+
+    <p class="text2">Fragancia Invictus-men <br>
+        100ml
+        <br>
+        <b><s>$1,710</s></b>
+
+        <p class="text3">Fragancia Maderal                 <br>
+            100ml
+            <br>
+            <b><s>$1,710</s></b>
+<br><br>
+    <br><br>
+     <div id="seccion-destino3" class="target-section">
+            <p class="text-azul">Frescas</p>
+        </div>
+
+    <br><br>
+    <div class="alinear">
+    <a href="perf.4.html"><img src="imagenes/perf.7.png" class="tamaño"></a>
+    <a href="perf.5.html"><img src="imagenes/perf.8.png" class="tamaño2"></a>
+    <a href="perf.6.html"><img src="imagenes/perf.9.png" class="tamaño3"></a>
+</div>
+<p>Fragancia EleganT <br>
+    100ml
+    <br>
+    <b><s>$2,090</s></b>
+
+    <p class="text2">Fragancia Invictus-men <br>
+        100ml
+        <br>
+        <b><s>$1,710</s></b>
+
+        <p class="text3">Fragancia Maderal                 <br>
+            100ml
+            <br>
+            <b><s>$1,710</s></b>
+
+<br>
+<br><br><br>
+<hr>
+    <br><br><br><br>
+
+    <h3>Sobre nosotros</h3>
+    <br><br>
+    <p class="text-azul">¿Quienes somos?</p>
+    <br>
+    <p>La tienda online de perfumes JCJANSON esta conformada por un pequeño grupo de estudiantes que buscan</p>
+    <p>ayudar a la población masculina a realizar la compra de sus fragancias.</p>
+    <br><br>
+    <p class="text-azul">Nuestro objetivo</p>
+    <br>
+    <p>Permitir que nuestros clientes puedan comprar con comodidad sus perfumes y satisfacer sus necesidades,</p>
+     <p>mostrandole nuestra variedad de perfumes, precios,marcas esto de una forma sencilla para que puedad localizar 
+     <p>facilmente lo que desean.</p>
+    <br><br>
+    <p class="text-azul">Misión</p>
+    <br>
+    <p>Nuestra misión es ofrecer a nuestros clientes una experiencia única en la compra de de perfumes de</p>
+    <p>calidad con una cuidadosa selección de fragancias para cada persona.</p>
+    <br><br>
+    <p class="text-azul">Visión</p>
+    <br>
+    <p>Ser la página web número uno en ventas de perfume y siempre ser la preferencia de nuestros clientes</p>
+    <p>para proporcionar una compra que exeda las expectativas completamente.</p>
+    <br><br>
+    <hr>
+    <br><br>
+    <footer>
+        <br><br>
+        <p class="p1">Contactanos</p>
+        <br><br>
+    <a href="mailto:jcjansoncorporation@gmail.com"><img src="imagenes/gmail.png" alt="gmail" class="imgcontpie" class="izquierda"></a>
+    <br>
+    <a href="https://www.instagram.com/invites/contact/?igsh=13ealgqlw5e9w&utm_content=uxmc17h"><img src="imagenes/insta.png" alt="instagram" class="imgcontpie" class="izquierda"></a>
+    <br>
+    <a href=""><img src="imagenes/facebook.png" alt="facebook" class="imgcontpie" class="izquierda"></a>
+    <br>
+    <a href="https://x.com/JcjansonC25882?s=08"><img src="imagenes/twitter.png" alt="twitter" class="imgcontpie" class="izquierda"></a>
+    <br>
+    </footer>
+
+</main>
+</body>
+</html>

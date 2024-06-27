@@ -1,0 +1,357 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:url(imagenes/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    zoom: auto;
+}
+
+/*inicio de barra de menu*/
+header {
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+}
+.main{
+    padding-top: 50px;
+    padding: 50px;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+}
+.menu-icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin: 0 0px;
+}
+
+.menu {
+    display: none;
+    flex-direction: column; /* Cambia a columna para mostrar las opciones verticalmente */
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    width: 200px; /* Ancho del menú */
+    height: 100%; /* Altura completa de la página */
+    padding-top: 50px; /* Espacio en la parte superior */
+}
+
+.close-icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.menu ul li {
+    width: 100%;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: block;
+    background-color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.menu ul li a:hover {
+    background-color: #74b4e2;
+}
+
+.menu.show {
+    display: flex;
+}
+.p{
+    color: #7ac4e9;
+}
+.carritoimg{
+    width: 40px;
+    height: 40px;
+    justify-content: space-between;
+    align-self: right;
+}
+
+/*Se cierra menu*/
+
+
+/*prueba de icons*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+
+}
+header .icons a{
+    text-align: right;
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-left: 1.5rem;
+    font-size: 170%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 70px;
+}
+/*cierre de barra de menu*/
+
+/*video de inicio*/
+
+video{
+    max-width: 150%;
+    width: 550px;/*ancho*/
+    height: 300px;/*altura*/
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding-top: 60px;
+    text-align: center
+}
+/*cierre de video de inicio*/
+
+/*sub-textos*/
+.p1{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 7px;
+}
+/*cierre de sub-textos*/
+
+/*color de textos*/
+.text-azul{
+    font-size: 20px;
+    color: #13668f;
+    padding: 10px;
+    display: inline-block;
+}
+.text-azulf{
+    font-size: 20px;
+    color: #4682b4;
+    padding: 10px;
+    display: inline-block;
+}
+/*cierre de color de textos*/
+
+/*imagenes de la principal*/
+.imgprin{
+    width: 200px;
+    height: 170px;
+}
+/*botones de olfativos*/
+.botonolf{
+    display:inline-block;
+    padding: .90em 3em;
+    background: rgb(84, 119, 185);
+    color:rgb(255, 255, 255);
+    border-radius: .5em;
+    cursor: pointer;
+    text-decoration:none;
+}
+.target-section {
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+/*cirre de botones de olfativos*/
+
+/*contactos*/
+.imgcontpie{
+    cursor: pointer;
+    width: 60px;
+    height: 50px;
+}
+/*se cierra contactos*/
+
+
+
+/*ALLAN*/
+
+/*colores*/
+
+.h1{
+    color: orange;
+}
+
+.alinear{
+    display: flex;
+    justify-content: left;
+}
+.imgprincipal{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.tamaño{
+    width: 200px;
+    height: 170px;
+    margin: 0  10px;
+}
+.tamaño2{
+    width: 200px;
+    height: 170px;
+    margin: 0  65px;
+}
+.tamaño3{
+    width: 200px;
+    height: 170px;
+    margin: 0  85px;
+}
+.text2{
+    margin: -3.91% 300px;
+}
+.text3{
+    margin: -3.91% 650px;
+}
+.textder{
+    float: right;
+}
+/*alineacion de imagenes*/
+.centrar{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    margin: 0 auto;
+}
+/*alineacion de textos*/
+.centro{
+    text-align: center;
+}
+/*clase boton*/
+.boton{
+
+    display: inline-block;
+    padding: .75em 1.5em;
+    background: #000011;
+    color: #ffff;
+    border-radius: .5em;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*Francisco*/
+/*carrito*/
+:root{
+    --color-acento: #1278bd;
+    --color-acento-claro: #ee613033;
+    --color-texto: black;
+  }
+  
+  .bodycarrito{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .pcarrito{
+    margin: 5px;
+  }
+  .escondido{
+    display: none;
+  }
+  
+  a{
+    background-color: unset;
+    border:unset;
+    cursor:pointer;
+    text-decoration: none;
+    transition: 200ms;
+    color: var(--color-texto);
+  }
+  
+  button{
+    transition: 200ms;
+  }
+  
+  a:hover:not(#cart), button:hover{
+    color: var(--color-acento);
+  }
+  #cuenta-carrito{
+    position: absolute;
+    background-color: var(--color-acento);
+    border-radius: 100%;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    aspect-ratio: 1;
+    text-align: center;
+    /* margin-bottom: 15px; */
+  }
+  
+  footer{
+    text-align: center;
+    box-shadow: -1px -3px 5px rgba(0, 0, 0, 0.09);
+    padding-top: 2px;
+    margin-top: auto;
+  }
+  /* Productos home*/
+#productos-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  justify-content: center;}
+  
+  .tarjeta-producto{
+    background-color: var(--color-acento-claro);
+    text-align: center;
+    padding: 10px;
+    max-width: 400px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: 200ms;
+  }
+  .tarjeta-producto:hover{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    translate: 0px -5px;
+  }
+  
+  .tarjeta-producto img{
+    max-width:100%;
+    aspect-ratio: 2;
+  }
+  
+  .precio{
+    font-weight: 600;
+  }
+  
+  .tarjeta-producto button{
+    font-size: larger;
+    background-color: var(--color-acento);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    border:unset;
+    cursor:pointer;
+  }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Berenice Andriano Motalvo">
+    <meta name="description" content="pagina pricipal">
+    <title>PAGINA PRINCIPAL</title>
+    <link rel="stylesheet" href="prueba.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="./js/perfumes.js"></script>
+	<script src="./js/cartService.js" defer></script>
+	<script src="./js/cuenta.js" defer></script>
+</head>
+<body>
+
+    <!--barra de menu-->
+    <header>
+<main>
+        <div class="navbar">
+        
+            <img src="imagenes/menu2.png" alt="Menú" class="menu-icon" onclick="toggleMenu()">
+            <img src="imagenes/logo.png" alt="logo" class="logo">
+            <div id="inicio" class="target-section"></div>
+
+            <div class="icons">
+                <a href="carrito.html">
+                    <img src="imagenes/bolsita.jpg" alt="img" class="carritoimg"><span id="cuenta-carrito">0</span>
+                    </a>
+            </div>
+        </div>
+        
+        <nav id="menu" class="menu">
+            <img src="imagenes/x.png" alt="Cerrar" class="close-icon" onclick="toggleMenu()">
+            <p class="p">MENU</p>
+            
+            <ul>
+                <li><a href="index.html">Inicio   ></a></li>
+                <li><a href="ofertas.html">Ofertas  ></a></li>
+                <li><a href="Exclusivoss.html">Premium  ></a></li>
+                <li>-----------------</li>
+                <li>-----------------</li>
+                <li>-----------------</li>
+                <li>-----------------</li>
+                <li><a href="Ayuda.html">Ayuda    ></li></a>
+                <li><a href="comentarios.html">Comentarios  ></li></a>
+                <li><a href="contactos.html">Contactos    ></li></a>
+            </ul>
+        </nav>
+
+    </header>
+
+    <br><br><br>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('show');
+        }
+        <br><br>
+    </script>
+    <br><br>
+    <!--se cierra barra de menu-->
+    <br><br>
+    <br><br>
+    <p class="p1">AYUDA</p>
+    <br><br>
+    
+            <p>Aqui te ayudaremos con las dudas que puedas llegar a tener sobre nuestra <br>
+                pàginao nuestro servicio.
+            </p>
+            <br><br><br><br>
+        <div class="alinear">
+<p class="text-azulf">Preguntas frecuentes</p>
+</div>
+
+<br><br> 
+<p>¿Nuestros productos son orginales?</p>
+<br>
+<p>Nuestros productos son 100% orginales y de la mejor calidad</p>
+    <br><br>
+    <p>¿Hay envios al extrangero?</p>
+<br>
+<p>Lamentablemente por el momento solo tenemos envios dentro de<br>
+    la republica mexicana</p>
+    <br><br>
+    <p>¿Nuestros envios tienen algun costo?</p>
+<br>
+<p>No, para garantizar la mejor experiencia en compras nuestros<br> 
+envios son totalmente gratis</p>
+    <br><br>
+    
+<hr>
+
+</main>
+</body>
+</html>

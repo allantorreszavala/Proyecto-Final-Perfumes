@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nuñez Garcia Leonardo Alonso">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXCLUSIVOS</title>
+    <link rel="stylesheet" href="prueba.css">
+
+</head>
+<body>
+
+    <!--barra de menu-->
+    <header>
+
+        <div class="navbar">
+        
+            <img src="imagenes/menu2.png" alt="Menú" class="menu-icon" onclick="toggleMenu()">
+            <img src="imagenes/logo.png" alt="logo" class="logo">
+            <div id="inicio" class="target-section"></div>
+
+            <div class="icons">
+                <a href="Pag.mamá.html">
+                    <img src="imagenes/bolsita.jpg" alt="img" class="carritoimg">
+                    </a>
+                    <a href="Pag.mamá.html">
+                        <img src="imagenes/lupa.jpg" alt="img" class="carritoimg">
+                        </a>
+            </div>
+        </div>
+        
+        <nav id="menu" class="menu">
+            <img src="imagenes/x.png" alt="Cerrar" class="close-icon" onclick="toggleMenu()">
+            <p class="p">MENU</p>
+            
+            <ul>
+                <li><a href="prub2.menu.html">Inicio   ></a></li>
+                <li><a href="#">Ofertas  ></a></li>
+                <li><a href="#">Premium  ></a></li>
+                <li>-----------------</li>
+                <li>-----------------</li>
+                <li>-----------------</li>
+                <li>-----------------</li>
+                <li><a href="#">Ayuda    ></li></a>
+                <li><a href="#">Comentarios  ></li></a>
+                <li><a href="#">Contactos    ></li></a>
+            </ul>
+        </nav>
+
+    </header>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('show');
+        }
+    </script>
+    <!--se cierra barra de menu-->
+    <img class="tamaño" src="Imagenes/Red.jpg">  
+    <p>Nautica Red<br>
+        100 ml
+        <br>
+        <b>$1,699 MXN</b><br><br>
+        <a class="Button">|-|1|+|</a>
+        <h2>Detalles del Producto </h2>
+        <li>Marca:Nautica</li>
